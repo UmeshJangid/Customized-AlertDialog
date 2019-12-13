@@ -1,8 +1,7 @@
 # Customized-AlertDialog
 This is simple library in Kotlin to show alert dialog box as per your requirement with basic callback functionality.
 
-# Usage
-
+# Usage In Code
 ```
  button.setOnClickListener {
             CustomizedAlertDialog.callAlertDialog(this@MainActivity, "Alert!",
@@ -22,6 +21,9 @@ This is simple library in Kotlin to show alert dialog box as per your requiremen
 
 
 ```
+# Project Gradle File
+
+```
 allprojects {
 		repositories {
 			...
@@ -32,6 +34,9 @@ allprojects {
   ```
   
 # Implementation
+```
 	dependencies {
 	        implementation 'com.github.UmeshJangid:Customized-AlertDialog:1.0.0'
 	}
+	
+```
